@@ -1,6 +1,6 @@
 source("getdata.R")
 
-# data <- getdata()
+data <- getdata()
 
 png(filename = "plot4.png",
     height = 480,
