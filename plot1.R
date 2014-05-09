@@ -5,6 +5,7 @@ data <- getdata()
 png(filename = "plot1.png",
     height = 480,
     width = 480,
+    units = "px",
     bg = "transparent")
 
 hist(data$Global_active_power,

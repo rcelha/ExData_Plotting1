@@ -5,6 +5,7 @@ data <- getdata()
 png(filename = "plot2.png",
     height = 480,
     width = 480,
+    units = "px",
     bg = "transparent")
 
 data$DateAndTime <- strptime(paste(data$Date, data$Time, sep=" "), format = "%d/%m/%Y %H:%M:%S")

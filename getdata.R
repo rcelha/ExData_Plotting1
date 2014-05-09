@@ -19,5 +19,6 @@ getdata <- function () {
   
   close(txtFile)
   
+  raw <- subset(raw, !is.na(Global_active_power))
   raw
 }
